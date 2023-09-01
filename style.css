@@ -138,12 +138,7 @@ body{
     height: 80%;
   }
   
-  .text-container{
-    font-size: 20px;
-    font-weight: 500;
-    text-align: justify;
-    padding: 10px 20px;
-  }
+
 
   /* Skills */
   .skills-section{
