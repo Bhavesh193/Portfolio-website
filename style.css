@@ -8,7 +8,6 @@
 body{
     width: 100vw;
     height: 100vh;
-    overflow-x: none;
 }
 .nav-section{
     width: 100%;
@@ -71,11 +70,9 @@ body{
     width: 100vw;
     height: 100vh;
     background: #0693e3;
-    /* overflow: hidden; */
 }
 .content{
     width: 40%;
-    /* margin: 0 5% 0 10%; */
 }
 .content h1{
     font-size: 3rem;
@@ -96,7 +93,6 @@ body{
 /* About me */
 .about {
     position: relative;
-    /* padding: 3% 5%; */
     background: #0693e3;
     overflow: hidden;
     border-top: 20px solid white;
