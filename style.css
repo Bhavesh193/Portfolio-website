@@ -8,6 +8,7 @@
 body{
     width: 100vw;
     height: 100vh;
+    overflow-x: none;
 }
 .nav-section{
     width: 100%;
@@ -16,7 +17,8 @@ body{
     justify-content: space-evenly;
     align-items: center;
     box-sizing: border-box;
-    border-bottom: 2px solid grey;background: #0693e3;
+    border-bottom: 2px solid grey;
+    background: #f1c40f;
 }
 .nav-section .title-icon img{
    width: 10%;
@@ -57,31 +59,38 @@ body{
     width: 100%;
 }
 .ul-links ul li a:hover{
-    color: orange;
+    color: white;
 }
 
 /*   content-section   */
 
 .content-section {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     width: 100vw;
     height: 100vh;
-    overflow: hidden;
+    background: #0693e3;
+    /* overflow: hidden; */
 }
 .content{
-    width: 50%;
-    margin: 0 5% 0 10%;
+    width: 40%;
+    /* margin: 0 5% 0 10%; */
 }
 .content h1{
-    font-size: 2.7rem;
+    font-size: 3rem;
+    color: white;
 }
 .content h3{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
 }
-.img-section img{
+/* .img-section img{
     width: 85%;
+} */
+.img-section img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
 }
 
 /* About me */
@@ -90,6 +99,7 @@ body{
     /* padding: 3% 5%; */
     background: #0693e3;
     overflow: hidden;
+    border-top: 20px solid white;
   }
   
   .about h1{
@@ -97,7 +107,7 @@ body{
     font-size: 3rem;
   }
  
-  .about p ,h1{
+  .about p{
     text-align: center;
   }
   .about-containers {
